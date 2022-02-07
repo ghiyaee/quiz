@@ -5,7 +5,7 @@
 }
 #top{
     text-align: center;
-    padding: 2rem;
+    /* padding: 0rem 2rem 2rem 2rem; */
     font-size: 30px;
     color: rgb(204, 214, 218);
 }
@@ -21,7 +21,8 @@
 }
 .timer{
     position: fixed;
-    right: 45px; 
+    right: 10px; 
+    top:100px;
     background-color: black;
     color: white;
     border-radius: 7px;
@@ -46,7 +47,7 @@
  margin-left: 50px;
 }
 .container{
-margin: 55px 0;
+margin: 10px 0;
 background-color: rgb(230, 69, 69);
 }
 .container p,div{

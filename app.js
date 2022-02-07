@@ -41,7 +41,7 @@ start.addEventListener('click', e => {
             scrollTo(0, 0);
             const p = document.createElement('p');
             p.style.color = 'white';
-            p.style.fontSize = '3.5rem';
+            p.style.fontSize = '1.5rem';
             p.innerHTML = `Time End ....`;
             _p.appendChild(p);
         } else {
