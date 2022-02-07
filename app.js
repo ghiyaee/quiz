@@ -1,4 +1,4 @@
-const correctAnswer = ['b', 'b', 'b', 'b'];
+const correctAnswer = ['b', 'b', 'b', 'b','b','b','b','b'];
 const form = document.querySelector('.quiz_form');
 const show = document.querySelector('#show__res');
 const span = document.querySelector('#score');
@@ -57,7 +57,7 @@ form.addEventListener('submit', e => {
     e.preventDefault();
     clearInterval(conterTimer);
     let score = 0;
-    const userAnsewers = [form.q1.value, form.q2.value, form.q3.value, form.q4.value, form.q5.value, form.q6.value, form.q7.value, form.q8.value, ];
+    const userAnsewers = [form.q1.value, form.q2.value, form.q3.value, form.q4.value, form.q5.value, form.q6.value, form.q7.value, form.q8.value ];
     userAnsewers.forEach((answer, index) => {
         if (answer === correctAnswer[index]) {
             span.innerHTML = score += 25;
