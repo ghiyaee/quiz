@@ -39,11 +39,12 @@ start.addEventListener('click', e => {
         if (i <= 0) {
             clearInterval(conterTimer);
             scrollTo(0, 0);
-            const p = document.createElement('p');
-            p.style.color = 'white';
-            p.style.fontSize = '1.5rem';
-            p.innerHTML = `Time End ....`;
-            _p.appendChild(p);
+            // const p = document.createElement('p');
+            // p.style.color = 'white';
+            // p.style.fontSize = '1.5rem';
+            // p.innerHTML = `Time End ....`;
+            // _p.appendChild(p);
+            timer.innerHTML=`Timer End `
         } else {
             i--
         }
