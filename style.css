@@ -9,7 +9,9 @@
     font-size: 30px;
     color: rgb(204, 214, 218);
 }
-
+#start,#rest{
+margin-top: 10px;
+}
 #quiz{
     padding: 2rem;
     font-size: 20px;
