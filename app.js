@@ -47,9 +47,7 @@ start.addEventListener('click', e => {
         } else {
             i--
         }
-      
-    }, 1000);
-    
+    }, 1000); 
 });
     
     
@@ -61,11 +59,10 @@ form.addEventListener('submit', e => {
     form.q4.value, form.q5.value, form.q6.value, form.q7.value, form.q8.value];
     userAnsewers.forEach((answer, index) => {
         if (answer === correctAnswer[index]) {
-            span.innerHTML = score += 25;
+            span.innerHTML = score += 12.5;
         }
         show.classList.remove('hiden');
-        scrollTo(0, 0);
-            
+        scrollTo(0, 0); 
         let conter = 0;
         const checkout = setInterval(() => {
             resl.textContent = `${conter}`;
