@@ -32,7 +32,7 @@ rest.addEventListener('click', e => {
 
 let container;
 start.addEventListener('click', e => {
-    let i = 40;
+    let i = 80;
     timer.classList.remove('hiden');
     conterTimer = setInterval(() => {
         timer.innerHTML = `Timer : ${i}s`;
@@ -61,7 +61,10 @@ form.addEventListener('submit', e => {
     form.q4.value, form.q5.value, form.q6.value, form.q7.value, form.q8.value, form.q9.value, form.q10.value];
     userAnsewers.forEach((answer, index) => {
         if (answer === correctAnswer[index]) {
-            span.innerHTML = score +=10;
+            span.innerHTML = score += 10;
+            setTimeout(() => {
+                location.reload();
+            },5000)
         }
         show.classList.remove('hiden');
         scrollTo(0, 0); 
