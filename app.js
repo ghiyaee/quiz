@@ -8,23 +8,6 @@ const start = document.querySelector('#start');
 const _p = document.querySelector('.container');
 const rest = document.querySelector('#rest');
 
-// window.addEventListener('DOMContentLoaded', e => {
-//     onscroll = () => {
-//         let i = 0;
-//         const conter = setInterval(() => {
-//             timer.innerHTML = `timer${i}`;
-//             timer.classList.remove('hiden');
-//             if (i >= 5) {
-//                 clearInterval(conter);
-//             }
-//             else {
-//                 i++;
-//             }
-//         }, 1000);
-//     }
-// });
-
-
 rest.addEventListener('click', e => {
     location.reload();
 })
@@ -39,11 +22,6 @@ start.addEventListener('click', e => {
         if (i<=0) {
             clearInterval(conterTimer);
             scrollTo(0, 0);
-            // const p = document.createElement('p');
-            // p.style.color = 'white';
-            // p.style.fontSize = '1.5rem';
-            // p.innerHTML = `Time End ....`;
-            // _p.appendChild(p);
             timer.innerHTML=`Timer End `
         } else {
             i--
@@ -55,7 +33,6 @@ start.addEventListener('click', e => {
 form.addEventListener('submit', e => {
     e.preventDefault();
     clearInterval(conterTimer);
-    // debugger
     let score = 0;
     const userAnsewers = [form.q1.value, form.q2.value, form.q3.value,
     form.q4.value, form.q5.value, form.q6.value, form.q7.value, form.q8.value, form.q9.value, form.q10.value];
