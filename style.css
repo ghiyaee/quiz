@@ -7,7 +7,7 @@
     text-align: center;
     /* padding: 0rem 2rem 2rem 2rem; */
     font-size: 30px;
-    color: rgb(204, 214, 218);
+    color: rgb(140, 190, 207);
 }
 #start,#rest{
 margin-top: 10px;
@@ -54,7 +54,7 @@ margin-top: 10px;
 }
 .container{
 margin: 10px 0;
-background-color: rgb(230, 69, 69);
+background-color: rgb(35, 37, 180);
 }
 .container p,div{
     padding: 5px;
@@ -62,10 +62,16 @@ background-color: rgb(230, 69, 69);
 }
 .btn{
     padding: 20px 35px;
-    background-color: rgb(230, 69, 69);
-    color:white;
+    background-color: rgb(252, 248, 248);
+    color:rgb(7, 6, 6);
     border-radius: 6px;
     font-size: large;
+    cursor: pointer;
+}
+.btn:hover{
+ background: #000;
+ color: white;
+ transition: all 0.5s ease-in-out;
 }
 #show__res{
     text-align: center;
