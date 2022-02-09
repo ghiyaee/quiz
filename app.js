@@ -32,11 +32,11 @@ rest.addEventListener('click', e => {
 
 let container;
 start.addEventListener('click', e => {
-    let i = 30;
+    let i = 40;
     timer.classList.remove('hiden');
     conterTimer = setInterval(() => {
-        timer.innerHTML = `Timer : ${i}`;
-        if (i <= 0) {
+        timer.innerHTML = `Timer : ${i}s`;
+        if (i<=0) {
             clearInterval(conterTimer);
             scrollTo(0, 0);
             // const p = document.createElement('p');
