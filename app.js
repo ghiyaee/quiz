@@ -8,14 +8,14 @@ const start = document.querySelector('#start');
 const _p = document.querySelector('.container');
 const rest = document.querySelector('#rest');
 
+
 rest.addEventListener('click', e => {
     location.reload();
 })
 
-
 let container;
 start.addEventListener('click', e => {
-    let i = 8;
+    let i =80;
     timer.classList.remove('hiden');
     conterTimer = setInterval(() => {
         timer.innerHTML = `Timer : ${i}s`;
@@ -25,6 +25,15 @@ start.addEventListener('click', e => {
             timer.innerHTML=`Timer End `
         } else {
             i--;
+            if (i < 65) {
+               timer.style.color = '#affc41'
+            }
+            if (i < 50) {
+                 timer.style.color ='yellow'
+            }
+            if (i < 25) {
+                timer.style.color='red'
+            }
         }
     }, 1000); 
 });
