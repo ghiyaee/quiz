@@ -62,9 +62,11 @@ margin: 10px 0;
 background-color: rgb(35, 37, 180);
 border-left: 10px solid tomato;
 }
-.container:hover{
-padding: 0.5rem 0.9rem;
+.container label:hover{
+ color:rgb(255,99,71);
 transition: all 0.3s ease-in-out;
+font-size: larger;
+font-weight: bold;
 }
 .container p,div{
     padding: 5px;
