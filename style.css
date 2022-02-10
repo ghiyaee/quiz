@@ -5,29 +5,32 @@
 }
 #top{
     text-align: center;
-    /* padding: 0rem 2rem 2rem 2rem; */
     font-size: 30px;
-    color: rgb(140, 190, 207);
+    color: rgb(204, 222, 228);
+    background: #000;
 }
 #start,#rest{
 margin-top: 10px;
+
 }
 #quiz{
     padding: 2rem;
     font-size: 20px;
     color:white;
-    background-color: rgb(85, 85, 252);
+    background-color: rgb(9, 9, 17);
 }
 .hiden{
     display: none;
 }
 .timer{
     position: fixed;
-    right: 10px; 
+    right: 12px; 
     top:100px;
     background-color: black;
     color: white;
     border-radius: 7px;
+     box-shadow: 1px 1px 6px 2px yellow;
+     padding: 1rem;
 }
 #quiz h2{
     margin-left: 19px;
@@ -44,10 +47,12 @@ margin-top: 10px;
 #start:hover{
     background-color: black;
     color: white;
+     box-shadow: 1px 1px 5px 2px yellow;
 }
 #rest:hover{
     background-color: black;
     color: white;
+     box-shadow: 1px 1px 5px 2px yellow;
 }
 #resalt{
  margin-left: 50px;
@@ -84,6 +89,7 @@ font-weight: bold;
  background: #000;
  color: white;
  transition: all 0.5s ease-in-out;
+ box-shadow: 1px 1px 6px 2px yellow;
 }
 #show__res{
     text-align: center;

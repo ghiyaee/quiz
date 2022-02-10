@@ -24,7 +24,7 @@ start.addEventListener('click', e => {
             scrollTo(0, 0);
             timer.innerHTML=`Timer End `
         } else {
-            i--
+            i--;
         }
     }, 1000); 
 });
