@@ -25,12 +25,12 @@ margin-top: 10px;
 .timer{
     position: fixed;
     right: 12px; 
-    top:100px;
+    top:58px;
     background-color: black;
     color: white;
-    border-radius: 7px;
-     box-shadow: 1px 1px 6px 2px yellow;
-     padding: 1rem;
+    border-radius: 4px;
+     box-shadow: 1px 1px 5px 2px yellow;
+     padding: 0.1rem;
 }
 #quiz h2{
     margin-left: 19px;
