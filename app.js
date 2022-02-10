@@ -15,7 +15,7 @@ rest.addEventListener('click', e => {
 
 let container;
 start.addEventListener('click', e => {
-    let i = 80;
+    let i = 8;
     timer.classList.remove('hiden');
     conterTimer = setInterval(() => {
         timer.innerHTML = `Timer : ${i}s`;
